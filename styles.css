@@ -1,0 +1,86 @@
+.ud-logo {
+  height: 20px;
+  width: 40px;
+  border-radius: 5%;
+}
+.ud-hero{
+  height: 100vh;
+}
+.ud-hero-font {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ud-magazine-column {
+  text-align: justify;
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: blueviolet;
+  column-width: 100px;
+}
+
+
+.first-character {
+
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  color: blueviolet;
+}
+
+.first-character2 {
+  float: left;
+  width: 0.7em;
+  font-size: 350%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 80%;
+}
+
+.ud-quote::before {
+  content: '" ';
+}
+
+.ud-quote::after {
+  content: ' "';
+}
+
+.ud-text-justify {
+  text-align: justify;
+}
+
+.ud-quote {
+  color: blueviolet;
+  font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+
+.ud-hover:hover {
+  background-color: rgb(235, 19, 48);
+}
+
+
+
+.ud-image-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.ud-image {
+  height: 300px;
+  width: 500px;
+  border-radius: 3%;
+}
+
