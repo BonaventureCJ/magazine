@@ -59,7 +59,7 @@ blockquote {
   padding: 20px 10px;
 }
 
-.photo-story > div > img {
+.photo-story__photo {
   height: 200px;
   width: 300px;
   border-radius: 3%;
